@@ -5,23 +5,10 @@ on:
     branches:
       - main
 
+
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
+  test:
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt || true
-
-      - name: Run simple test
-        run: echo "✅ GitHub Actions workflow ran successfully!"
+      - name: 23f2005520@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+      
